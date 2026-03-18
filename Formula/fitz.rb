@@ -2,8 +2,8 @@ class Fitz < Formula
   include Language::Python::Virtualenv
 
   desc "Fitz terminal status dashboard"
-  homepage "https://github.com/fitzcapital/mccain-capital-repo"
-  head "https://github.com/fitzcapital/mccain-capital-repo.git", branch: "main"
+  homepage "https://github.com/fitzcapital/fitz"
+  head "https://github.com/fitzcapital/fitz.git", branch: "main"
 
   depends_on "python@3.13"
 
